@@ -1,0 +1,26 @@
+/* BASE */
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    background-color: #fff;
+    color: #555;
+    margin: 0 0;
+    box-sizing: border-box;
+}
+
+/* Layout */
+.row {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+/* Header */
+.header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../img/hero.jpg');
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+}
