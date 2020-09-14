@@ -21,6 +21,15 @@ body {
     justify-content: space-between;
 }
 
+.row-column {
+    flex: 1;
+}
+
+.row-column:not(:last-child) {
+    margin-right: 10px;
+}
+/* END Of layout */
+
 /* Header */
 .header {
     background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../img/hero.jpg');
@@ -119,6 +128,69 @@ h3 {
 }
 
 /* End of Buttons module */
+
+/* SECTION HEADER */
+.section-header {
+    width: 100%;
+    text-align: center;
+}
+
+.section-header__heading--main {
+    font-size: 360%;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.section-header__separator {
+    width: 100px;
+    height: 2px;
+    background-color: #e67e22;
+    border: none;
+    position: relative;
+    top: -10px;
+}
+
+.section-header__desc {
+    font-size: 200%;
+    width: 70%;
+    text-align: left;
+    line-height: 145%;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+/* END OF SECTION HEADER */
+
+/* COLUMN ITEM */
+.item {
+    text-align: left;
+}
+
+.item__header {
+    font-size: 220%;
+}
+
+.item__desc {
+    font-size: 180%;
+    line-height: 145%;
+}
+/* END OF COLUMN ITEM */
+
+/* ICON */
+.icon--thin {
+   --ionicon-stroke-width: 16px; 
+}
+
+.icon--big {
+    font-size: 540%;
+}
+
+.icon--orange {
+    color: #e67e22;
+}
+/* END OF ICON */
+
 
 
 
