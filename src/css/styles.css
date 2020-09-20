@@ -191,6 +191,64 @@ h3 {
 }
 /* END OF ICON */
 
+/* SECTION STEPS */
+.app-screen {
+    width: 40%;
+    display: block;
+}
+
+.btn-app img {
+    height: 50px;
+    width: auto;
+}
+
+.playstore {
+    margin-left: 2em;
+}
+
+.section-steps__list {
+    list-style: none;
+    font-size: 200%;
+    counter-reset: my-awesome-counter;
+}
+
+.section-steps__list li {
+    padding-top: 1em;
+    padding-bottom: 1em;
+    padding-left: 1em;
+    counter-increment: my-awesome-counter;
+    position: relative;
+}
+
+.section-steps__list li::before {
+    content: counter(my-awesome-counter);
+    position: absolute;
+    left: -40px;
+    
+    width: 40px;
+    height: 40px;
+    border-radius: 200px;
+    color: #e67e22;
+    border: 2px #e67e22 solid;
+    font-size: 180%;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* END OF SECTION STEPS */
+
+/* UTILS */
+.utils-block-center {
+    margin: 0 auto;
+}
+
+.utils-margin-top-4em {
+    margin-top: 4em;
+}
+/* END OF UTILS */
+
 
 
 
