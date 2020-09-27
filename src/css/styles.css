@@ -249,6 +249,44 @@ h3 {
 }
 /* END OF UTILS */
 
+/* SECTION CITIES */
+.section-cities__img {
+    width: 100%;
+}
+
+.section-cities__list {
+    list-style: none;
+    font-size: 200%;
+    padding-left: 0;
+}
+
+.section-cities__list li {
+    margin: .4em 0;
+}
+
+.section-cities__icon {
+    display: inline-block;
+    width: 30px;
+    text-align: left;
+    position: relative;
+    top: 2px;
+}
+
+.section-cities__twitter {
+    color: #e67e22;
+    cursor: pointer;
+    padding-bottom: 2px;
+    border-bottom: 1px solid #e67e22;
+    transition: color .2s, border-bottom .2s;
+}
+
+.section-cities__twitter:hover {
+    color: inherit;
+    border-bottom: 1px solid black;
+}
+
+/* END OF SECTION CITIES */
+
 
 
 
