@@ -247,6 +247,10 @@ h3 {
 .utils-margin-top-4em {
     margin-top: 4em;
 }
+
+.utils-margin-top-2em {
+    margin-top: 2em;
+}
 /* END OF UTILS */
 
 /* SECTION CITIES */
@@ -286,6 +290,46 @@ h3 {
 }
 
 /* END OF SECTION CITIES */
+
+/* SECTION TESTIMONIALS */
+.section-testimonials {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../img/back-customers.jpg');
+    background-position: center;
+    background-size: cover;
+    color: #fff;
+    background-attachment: fixed;
+}
+
+blockquote {
+    font-size: 200%;
+    font-style: italic;
+    line-height: 145%;
+    position: relative;
+}
+
+blockquote::before {
+    content: "\201C";
+    font-size: 500%;
+    display: block;
+    position: absolute;
+    top: -5px;
+    left: -5px;
+}
+
+cite {
+    display: block;
+    font-size: 100%;
+    margin-top: 25px;
+}
+
+cite img {
+    height: 45px;
+    border-radius: 50%;
+    margin-right: 10px;
+    vertical-align: middle; 
+}
+
+/* END OF SECTION TESTIMONIALS */
 
 
 
