@@ -331,6 +331,54 @@ cite img {
 
 /* END OF SECTION TESTIMONIALS */
 
+/* SECTION PLANS */
+.section-plans-pricing h3 {
+    font-size: 220%;
+    text-transform: uppercase;
+}
+
+.plan-price {
+    font-size: 180%;
+    color: #e67e22;
+}
+
+.plan-price-number {
+    font-size: 240%;
+    font-weight: 300;
+}
+
+.plan-price-desc {
+    font-size: 160%;
+}
+
+.section-plan__list {
+    list-style: none;
+    padding-left: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 200%;
+}
+
+.section-plan__list li {
+    line-height: 1.6em;
+}
+
+.plans-features__icon {
+    display: inline-block;
+    margin-right: 10px;
+    position: relative;
+    top: 2px;
+}
+
+.section-plan-actions {
+    height: 8em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* END OF SECTION PLANS */
+
 
 
 
