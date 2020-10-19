@@ -332,6 +332,11 @@ cite img {
 /* END OF SECTION TESTIMONIALS */
 
 /* SECTION PLANS */
+.section-plans-pricing {
+    padding: 5px 1em;
+    border-bottom: 1px solid #e8e8e8;
+}
+
 .section-plans-pricing h3 {
     font-size: 220%;
     text-transform: uppercase;
@@ -357,6 +362,10 @@ cite img {
     margin-top: 0;
     margin-bottom: 0;
     font-size: 200%;
+    background-color: #FFF;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    border-bottom: 1px solid #e8e8e8;
 }
 
 .section-plan__list li {
@@ -377,8 +386,110 @@ cite img {
     align-items: center;
 }
 
+.section-plans-plan {
+    width: 90%;
+    margin: 0 auto;
+    background-color: #F7F7F7;
+    border-radius: 5px;
+}
+
 /* END OF SECTION PLANS */
 
+/* SECTION FORM */
+.section-form form {
+    font-size: 200%;
+    width: 70%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    grid-column-gap: 16px;
+    grid-row-gap: 1em;
+}
+
+.section-form__label {
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+
+.section-form__input {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    font-size: 100%;
+}
+
+.section-form__actions {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#section-form__submit {
+    font-size: 90%;
+}
+/* END OF SECTION FORM */
+
+/* SECTION FOOTER */
+.site-footer {
+    background-color: #333;
+    color: #aaa;
+    font-size: 160%;
+    height: 200px;
+}
+
+.site-footer__links {
+    list-style: none;
+}
+
+.site-footer__links li {
+    display: inline-block;
+}
+
+.site-footer__links li a {
+    color: #aaa;
+    text-decoration: none;
+    margin-left: 2em;
+    transition: color .2;
+}
+
+.site-footer__links li a:hover {
+    color: #fff;
+}
+
+.site-footer__social {
+    list-style: none;
+    text-align: right;
+}
+
+.site-footer__social li {
+    display: inline-block;
+}
+
+.site-footer__social li a {
+    color: #aaa;
+    text-decoration: none;
+    margin-left: 2em;
+    transition: color .2;
+}
+
+.site-footer__social li a:hover {
+    color: #fff;
+}
+
+.site-footer__copyright {
+    margin: 0 auto;
+}
+
+.site-footer .row:first-child {
+    padding-top: 2em;
+}
+
+.site-footer .row:last-child {
+    padding-top: 3em;
+}
+
+/* END OF SECTION FOOTER */
 
 
 
